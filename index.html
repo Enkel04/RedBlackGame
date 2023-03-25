@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Red/Black</title>
+  </head>
+  <body>
+    <h2 class="textcheck text-center m-3 text-light">𝕷𝖊𝖙'𝖘 𝖘𝖙𝖆𝖗𝖙 𝖕𝖑𝖆𝖞𝖎𝖓𝖌!</h2>
+    <div class="row text-center">
+      <div class="col-sm-4">
+        <h3 class="text-light m-3">
+          <strong>Grand Jackpot for 8 times in a row WIN!</strong>
+        </h3>
+        <h5 class="jackpot text-light">Jackpot scores: 0</h5>
+
+        <button class="btn btn-lg btn-outline-light btn--green m-5">
+          <strong>NEW GAME</strong>
+        </button>
+      </div>
+      <div class="col-sm-4">
+        <div>
+          <img src="./cards/default-card.png" class="stableimage m-5" />
+        </div>
+        <button class="btn btn-lg btn-danger btn--red m-3">
+          &nbsp;&nbsp;<strong>RED</strong>&nbsp;&nbsp;
+        </button>
+        <button class="btn btn-lg btn-dark btn--black m-3">
+          <strong>BLACK</strong>
+        </button>
+      </div>
+      <div class="col-sm-4">
+        <div id="app"></div>
+        <input class="m-4 p-1" type="number" id="money" />
+        <button class="btn btn-outline-light btn--cash" id="enterCash">
+          <strong>ENTER CASH</strong>
+        </button>
+
+        <h3 class="text-light m-4"><span id="availableCash">0</span>$</h3>
+
+        <button class="btn btn-outline-light btn-lg btn--withdraw">
+          <strong>WITHDRAW</strong>
+        </button>
+
+        <h4 class="winningprice m-5 text-light"></h4>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

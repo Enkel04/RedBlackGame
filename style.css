@@ -1,0 +1,39 @@
+body {
+  background-color: #1a7332 !important;
+}
+
+.btn--red {
+  align-items: center;
+  text-align: center;
+  border-radius: 30px !important;
+}
+
+.btn--black {
+  align-items: center;
+  text-align: center;
+  border-radius: 30px !important;
+}
+
+.btn--green {
+  align-items: center;
+  text-align: center;
+  border-radius: 30px !important;
+}
+
+.btn--cash {
+  align-items: center;
+  text-align: center;
+  border-radius: 50px !important;
+}
+
+.btn--withdraw {
+  align-items: center;
+  text-align: center;
+  border-radius: 50px !important;
+}
+
+.stableimage {
+  max-width: 250px;
+  border-radius: 10px;
+  border: 2px solid;
+}
